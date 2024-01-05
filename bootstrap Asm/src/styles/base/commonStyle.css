@@ -1,0 +1,1 @@
+.container-fluid{padding:0}.title{font-size:32px;font-weight:bold;text-transform:uppercase;color:#000;text-align:center;padding:20px 0}.title::after{display:block;content:"";height:3px;width:100px;background-color:orange;margin:10px auto}

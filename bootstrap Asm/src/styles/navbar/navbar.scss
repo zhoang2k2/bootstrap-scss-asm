@@ -1,0 +1,31 @@
+.subnav {
+  padding: 10px 50px;
+
+  ul {
+    a {
+      color: #88a8bd;
+    }
+  }
+
+  .contact {
+    i {
+      color: #88a8bd;
+    }
+  }
+}
+
+.navbar {
+  padding: 10px 50px;
+
+  .nav-item {
+    border-bottom: 3px solid #83a4b4;
+  }
+
+  button {
+    color: #7c7c7c;
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+  }
+}

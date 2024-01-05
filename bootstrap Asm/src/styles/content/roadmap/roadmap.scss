@@ -1,0 +1,17 @@
+.roadmap {
+  padding: 20px 0;
+
+  .row {
+    width: 1366px;
+    margin: auto;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .row:nth-child(2) {
+    margin-bottom: 50px;
+  }
+}

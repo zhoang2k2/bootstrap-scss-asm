@@ -1,0 +1,46 @@
+.partner {
+  .date {
+    text-align: center;
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #dee7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+    }
+  }
+
+  .col-8 {
+    a {
+      color: orange;
+    }
+
+    .text {
+      width: 75%;
+
+      h2 {
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      p {
+        padding: 15px 0;
+
+        a {
+          color: brown;
+          font-weight: bold;
+          text-decoration-line: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+.categories-container{display:grid;grid-template-columns:repeat(4, 1fr);-moz-column-gap:20px;column-gap:20px;row-gap:10px}.categories-container a{font-size:18px;color:#000;-webkit-text-decoration-line:none;text-decoration-line:none;border:1px solid #f3f3f3;padding:15px;display:flex;flex-direction:row;gap:10px}

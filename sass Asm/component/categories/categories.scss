@@ -1,0 +1,19 @@
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+
+  a {
+    font-size: 18px;
+    color: #000;
+    text-decoration-line: none;
+
+    border: 1px solid #f3f3f3;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

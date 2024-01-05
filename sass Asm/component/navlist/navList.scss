@@ -1,0 +1,26 @@
+.nav-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+      color: #9bc9df;
+      text-decoration-line: none;
+    }
+  }
+
+  .language-box {
+    position: absolute;
+    right: 0;
+
+    select {
+      padding: 5px 20px;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.user-section {
+  background-color: #f7f8fa;
+
+  .partner-container {
+    padding: 20px 0;
+
+    .partner-content {
+      padding-bottom: 75px;
+
+      h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .partner-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+    }
+
+    .for-user {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .for-user-container:nth-child(1) {
+        border-right: 1px solid gray;
+      }
+
+      .for-user-container {
+        .for-user-content {
+          width: 75%;
+          margin: auto;
+          text-align: center;
+
+          h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+
+          p {
+            word-spacing: 1px;
+            line-height: 1.2;
+          }
+
+          button {
+            border: none;
+            margin-top: 20px;
+            @include button(#fff, #ec5252);
+          }
+        }
+      }
+    }
+  }
+}

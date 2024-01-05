@@ -1,0 +1,14 @@
+// BASE
+@import "./src/styles/base/resetStyle.scss";
+@import "./src/styles/base/commonStyle.scss";
+
+// COMPONENTS
+@import "./src/styles/navbar/navbar.scss";
+@import "./src/styles/banner/banner.scss";
+@import "./src/styles/content/value/value.scss";
+@import "./src/styles/content/roadmap/roadmap.scss";
+@import "./src/styles/content/coaches/coaches.scss";
+@import "./src/styles/content/service/service.scss";
+@import "./src/styles/content/feedback/feedback.scss";
+@import "./src/styles/content/partner/partner.scss";
+@import "./src/styles/footer/footer.scss";
